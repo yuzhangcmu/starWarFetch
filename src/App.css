@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50px;
+  padding-right: 20px;
+}
+
+.App-header {
+  display: flex;
+  background-color: #222;
+  /* height: 150px; */
+  padding: 20px;
+  color: white;
+  height: 10vh;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.Sub-title {
+  margin: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Content {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: visible;
+}
+
+.Main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 70%;
+  overflow: scroll;
+}
+
+.Search-box {
+  width: 300px;
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid #38546d;
+}
+
+.Character-name {
+  border: 1px solid #38546d;
+  width: 240px;
+  margin: 2px;
+  align-self: center;
+  padding: 2px;
+}
+
+.headerDivider {
+   border-left:1px solid #38546d;
+   border-right:1px solid #16222c;
+   min-height: 280px;
+   /* position:absolute; */
+   right:249px;
+   top:10px;
+}
+
+html, body {
+  overflow-y: hidden;
+}
+
+.Side-bar {
+  width: 30%;
+  overflow: scroll;
+  height: 90vh;
+  padding: 0 30px;
+}
